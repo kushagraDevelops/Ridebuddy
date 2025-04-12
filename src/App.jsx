@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './assets/components/parts/navbar';
 import RideBuddyHomepage from './assets/components/homepage';
 import RideBuddyPage from './assets/components/ridepage';
-import RideOffer from './assets/components/RideOffer';
+import RideOffer from './assets/components/rideoffer';
 
 
 function App() {
