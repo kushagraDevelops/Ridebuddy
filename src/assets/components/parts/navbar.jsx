@@ -16,9 +16,13 @@ function Navbar(){
                     {/* Desktop Navigation */}
                     <div className="hidden md:flex items-center space-x-4">
                       <Link to="/" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-[#333333]">Home</Link>
+
                       <Link to="/ridepage" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-[#333333]">Find Ride</Link>
-                      <Link to="/RideOffer" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-[#333333]">Offer Ride</Link>
+                      
+                      <Link to="#" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-[#333333]">Offer Ride</Link>
+
                       <Link to="/RideOffer" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-[#333333]">My Rides</Link>
+
                       <Link to="#" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-[#333333]">Profile</Link>
                     </div>
                     

@@ -301,6 +301,3 @@ const RideBuddyPage = () => {
 };
 
 export default RideBuddyPage;
-
-
-
