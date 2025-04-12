@@ -152,7 +152,7 @@ const RideBuddyHomepage = () => {
         
         {/* Vehicle Image */}
         <div className="flex justify-center items-center">
-          <img src="../public/van.png" alt="White van" />
+        <img src="/van.png" alt="White van" />
         </div>
       </div>
 
