@@ -19,11 +19,11 @@ function Navbar(){
 
                       <Link to="/ridepage" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-[#333333]">Find Ride</Link>
                       
-                      <Link to="#" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-[#333333]">Offer Ride</Link>
+                      <Link to="/postride" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-[#333333]">Offer Ride</Link>
 
                       <Link to="/RideOffer" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-[#333333]">My Rides</Link>
 
-                      <Link to="#" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-[#333333]">Profile</Link>
+                      <Link to="/profile" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-[#333333]">Profile</Link>
                     </div>
                     
                     {/* Mobile menu button */}
@@ -46,7 +46,7 @@ function Navbar(){
                       <Link to="/ridepage" className="block px-3 py-2 rounded-md text-base font-medium bg-indigo-800">Find Ride</Link>
                       <Link to="/" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-indigo-500">Offer Ride</Link>
                       <Link to="/myride" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-indigo-500">My Rides</Link>
-                      <Link to="#" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-indigo-500">Profile</Link>
+                      <Link to="/profile" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-indigo-500">Profile</Link>
                     </div>
                   </div>
                 )}
