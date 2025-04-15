@@ -108,6 +108,16 @@ const RideBuddyHomepage = () => {
                     <label className="block text-sm font-medium text-green-700 mb-1">Location</label>
                     <input 
                       type="text" 
+                      placeholder="Where from?" 
+                      className="w-full p-3 border border-gray-300 rounded-lg text-gray-800 placeholder-gray-400 focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all"
+                      value={location}
+                      onChange={(e) => setLocation(e.target.value)}
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-sm font-medium text-green-700 mb-1">Location</label>
+                    <input 
+                      type="text" 
                       placeholder="Where to?" 
                       className="w-full p-3 border border-gray-300 rounded-lg text-gray-800 placeholder-gray-400 focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all"
                       value={location}
@@ -126,25 +136,18 @@ const RideBuddyHomepage = () => {
                     />
                   </div>
 
-                  {/* Return Date */}
-                  <div>
-                    <label className="block text-sm font-medium text-green-700 mb-1">Return</label>
-                    <input 
-                      type="date" 
-                      className="w-full p-3 border border-gray-300 rounded-lg text-gray-800 focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all"
-                      value={returnDate}
-                      onChange={(e) => setReturnDate(e.target.value)}
-                    />
-                  </div>
+                
                 </div>
                 
                 {/* Search Button - Right side */}
+                <Link to ="/ridepage">
                 <button 
                   onClick={handleSearch}
                   className="bg-green-600 text-white px-8 py-3 rounded-lg hover:bg-green-700 transition-all shadow-md hover:shadow-lg h-[46px]"
                 >
                   Search
                 </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -152,7 +155,11 @@ const RideBuddyHomepage = () => {
         
         {/* Vehicle Image */}
         <div className="flex justify-center items-center">
-        <img src="/van.png" alt="White van" />
+          <img 
+            src="van.png" 
+            alt="White van" 
+            // className="w-full max-w-[800px] h-auto" 
+          />
         </div>
       </div>
 

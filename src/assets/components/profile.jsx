@@ -2,12 +2,12 @@ import { useState } from 'react';
 import { Star, Edit, Key, Clock, LogOut, Award, MapPin, User, Phone, Mail, CheckCircle } from 'lucide-react';
 
 export default function ProfilePage() {
-  // Dummy user data
+  // Updated Indian user data
   const user = {
-    name: "Alex Johnson",
-    username: "alex_rider",
-    email: "alex@example.com",
-    phone: "+1 (555) 123-4567",
+    name: "Aditya Sharma",
+    username: "aditya_s",
+    email: "aditya@example.com",
+    phone: "+91 98765 43210",
     type: "Both", // Driver / Passenger / Both
     verified: true,
     rating: 4.8,
@@ -15,26 +15,26 @@ export default function ProfilePage() {
     recentRides: [
       {
         id: 1,
-        date: "April 12, 2025",
+        date: "15 April, 2025",
         time: "09:30 AM",
-        pickup: "Downtown Station",
-        dropoff: "Tech Park",
+        pickup: "Jaipur",
+        dropoff: "Delhi",
         role: "Driver"
       },
       {
         id: 2,
-        date: "April 10, 2025",
+        date: "13 April, 2025",
         time: "05:45 PM",
-        pickup: "Central Mall",
-        dropoff: "Riverside Apartments",
+        pickup: "Gurgaon",
+        dropoff: "Noida",
         role: "Passenger"
       },
       {
         id: 3,
-        date: "April 7, 2025",
+        date: "10 April, 2025",
         time: "08:15 AM",
-        pickup: "Green Hills",
-        dropoff: "City Center",
+        pickup: "Bhiwani",
+        dropoff: "Ambala",
         role: "Driver"
       }
     ]

@@ -33,7 +33,7 @@ export default function PostRideForm() {
       <div className="max-w-3xl mx-auto">
         {/* Header */}
         <div className="flex items-center justify-center mb-8">
-          <Leaf className="text-green-500 mr-2" size={28} />
+         
           <h1 className="text-3xl md:text-4xl font-bold text-green-700">Post a Ride</h1>
         </div>
 
