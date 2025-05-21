@@ -6,6 +6,8 @@ import RideBuddyPage from './assets/components/ridepage';
 import RideOffer from './assets/components/rideoffer';
 import ProfilePage from './assets/components/profile';
 import PostRideForm from './assets/components/postride';
+import AuthForm from './assets/components/AuthForm';
+
 
 
 function App() {
@@ -18,6 +20,7 @@ function App() {
         <Route path="/RideOffer" element={<RideOffer />} />   
         <Route path="/profile" element={<ProfilePage />} />    
         <Route path="/postride" element={<PostRideForm />} />
+        <Route path="/auth" element={<AuthForm />} />
       </Routes>
     </BrowserRouter>
   );
